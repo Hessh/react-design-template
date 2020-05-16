@@ -1,0 +1,12 @@
+/* The generic CSS that is implemented in every page */
+
+body {
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
