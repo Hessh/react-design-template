@@ -8,7 +8,7 @@ header {
     box-shadow: 0px 0px 10px -1px #00000050;
 }
 
-[class*="header-"] {
+[class*="header-"], #burger {
     height: 100%;
     display: flex;
     flex-direction: row;
@@ -30,7 +30,7 @@ header {
     margin-left: 2rem;
 }
 
-[class*="header-"] .link:last-of-type {
+[class*="header-"] .link:last-of-type, #burger {
     margin-right: 2rem;
 }
 
@@ -44,4 +44,37 @@ header {
 
 .header-right .link:hover {
     color: #333;
+}
+
+#burger {
+    display: none;
+}
+
+@media screen and (max-width: 1000px) {
+    #burger {
+        display: flex;
+    }
+    .header-right {
+        position: absolute;
+        top: 4rem;
+        display: none;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .header-right .link {
+        height: 100%;
+        padding: 0 0.5rem;
+        display: flex;
+        align-items: flex-start;
+        color: #333;
+        font-size: 16px;
+        text-decoration: none;
+    }
+    .header-right .link:nth-of-type(1) {
+        margin-left: 0;
+    }
+    .header-left .link:nth-of-type(1) {
+        margin-left: 1rem;
+    }
 }

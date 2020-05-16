@@ -1,9 +1,28 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import "../../css/layout/header.css";
 
+let showMenu = false;
+
 export class Header extends Component {
+  constructor(props) {
+    super(props);
+    this.toggleRef = React.createRef();
+  }
+
+  toggleMenu = () => {
+    console.log(this);
+    if (!showMenu) {
+      this.toggleRef.current.style.display = "flex";
+      showMenu = true;
+    } else {
+      this.toggleRef.current.style.display = "none";
+      showMenu = false;
+    }
+  };
+
   render() {
     return (
       <header>
@@ -12,7 +31,7 @@ export class Header extends Component {
             <span>Design Template</span>
           </Link>
         </div>
-        <div className="header-right">
+        <div className="header-right" ref={this.toggleRef}>
           <Link to="/layout" className="link">
             <span>LAYOUT</span>
           </Link>
@@ -43,11 +62,14 @@ export class Header extends Component {
           <Link to="/content" className="link">
             <span>CONTENT</span>
           </Link>
-          <div id="burger"></div>
         </div>
+        <FontAwesomeIcon
+          icon={["fas", "bars"]}
+          id="burger"
+          onClick={this.toggleMenu}
+        />
       </header>
     );
   }
 }
-
 export default Header;

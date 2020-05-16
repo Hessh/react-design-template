@@ -1,9 +1,12 @@
 import React from "react";
+/** Routing */
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
+/** Layout */
 import Header from "./components/layout/Header";
 import Footer from "./components/layout/Footer";
 
+/** Pages */
 import Layout from "./components/pages/Layout";
 import Colors from "./components/pages/Colors";
 import Fonts from "./components/pages/Fonts";
@@ -15,14 +18,23 @@ import Transitions from "./components/pages/Transitions";
 import Animations from "./components/pages/Animations";
 import Content from "./components/pages/Content";
 
+/** CSS */
 import "./css/pages/style.css";
 
+/** Font Awesome Icons */
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { faCheck, faBars } from "@fortawesome/free-solid-svg-icons";
+
+/** Font Awesome Icon Library */
+library.add(faCheck, faBars);
+
+/** Main component with layout and routing */
 function App() {
   return (
     <Router>
       <div className="App">
         <Header />
-        <Route exact path="/" />
+        <Route exact path="/"></Route>
         <Route path="/layout" component={Layout} />
         <Route path="/colors" component={Colors} />
         <Route path="/fonts" component={Fonts} />
