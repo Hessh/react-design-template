@@ -23,10 +23,10 @@ import "./css/pages/style.css";
 
 /** Font Awesome Icons */
 import { library } from "@fortawesome/fontawesome-svg-core";
-import { faCheck, faBars } from "@fortawesome/free-solid-svg-icons";
+import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
 
 /** Font Awesome Icon Library */
-library.add(faCheck, faBars);
+library.add(faBars, faTimes);
 
 /** Main component with layout and routing */
 function App() {

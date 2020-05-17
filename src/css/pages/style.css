@@ -1,5 +1,39 @@
 /* The generic CSS that is implemented in every page */
 
+@font-face {
+    font-family: "Freight";
+    src: url("../../font/freight/freight-text-book.ttf");
+}
+
+@font-face {
+    font-family: "Proxima Nova";
+    src: url("../../font/proximanova/proxima-nova-light.otf");
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: "Proxima Nova";
+    src: url("../../font/proximanova/proxima-nova-regular.otf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Proxima Nova";
+    src: url("../../font/proximanova/proxima-nova-semibold.otf");
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "Proxima Nova";
+    src: url("../../font/proximanova/proxima-nova-bold.otf");
+    font-weight: 800;
+}
+
+:root {
+    --title-color: #151515;
+    --text-color: #121212;
+}
+
 body {
     position: relative;
     margin: 0;
@@ -8,5 +42,15 @@ body {
 
 * {
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Proxima Nova', sans-serif;
+}
+
+.container-fluid {
+    width: 100%;
+    padding: 2rem 1rem;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
 }
