@@ -65,3 +65,13 @@
 .palette-row-2 .box-4 {
     background-color: ;
 }
+
+@media screen and (max-width: 1000px) {
+    .palette-row {
+        margin-bottom: 4rem;
+    }
+    .color-box {
+        margin: 0 0.5rem;
+        padding: 2rem;
+    }
+}

@@ -38,6 +38,10 @@
     --text-color: #121212;
 }
 
+html {
+    font-size: 16px;
+}
+
 body {
     position: relative;
     margin: 0;
@@ -69,32 +73,33 @@ h1, h2, h3, h4, h5 {
 }
 
 h1 {
-    font-size: 108px;
+    font-size: 6.75rem;
     line-height: 108.5px;
 }
 
 h2 {
-    font-size: 61px;
+    font-size: 3.8rem;
     line-height: 67.5px;
 }
 
 h3 {
-    font-size: 45px;
+    font-size: 2.8rem;
     line-height: 49.5px;
 }
 
 h4 {
-    font-size: 29px;
+    font-size: 1.8rem;
     line-height: 25px;
 }
 
 h5 {
-    font-size: 11px;
+    font-size: 0.69rem;
     line-height: 20px;
 }
 
 p {
     color: var(--text-color);
+    font-size: 1.125rem;
     font-weight: 400;
     line-height: 25px;
 }
@@ -114,43 +119,32 @@ p {
 /* Media: Tablet */
 
 @media screen and (max-width: 1000px) {
+    /* Containers */
+    .container-fluid {
+        padding: 1rem;
+    }
     /* Typografi */
     h1 {
-        font-size: 108px;
-        line-height: 108.5px;
+        margin: 1.5rem 0;
+        font-size: 2rem;
     }
     h2 {
-        font-size: 61px;
-        line-height: 67.5px;
+        margin: 1.375rem 0;
+        font-size: 1.5rem;
     }
     h3 {
-        font-size: 45px;
-        line-height: 49.5px;
+        margin: 1.25rem 0;
+        font-size: 1.17rem;
     }
     h4 {
-        font-size: 29px;
-        line-height: 25px;
+        margin: 1.125rem 0;
+        font-size: 1.05rem;
+    }
+    p {
+        font-size: 16px;
     }
 }
 
 /* Media: Mobile */
 
-@media screen and (max-width: 750px) {
-    /* Typografi */
-    h1 {
-        font-size: 108px;
-        line-height: 108.5px;
-    }
-    h2 {
-        font-size: 61px;
-        line-height: 67.5px;
-    }
-    h3 {
-        font-size: 45px;
-        line-height: 49.5px;
-    }
-    h4 {
-        font-size: 29px;
-        line-height: 25px;
-    }
-}
+@media screen and (max-width: 750px) {}
