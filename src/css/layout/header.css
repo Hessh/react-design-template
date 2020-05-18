@@ -25,7 +25,7 @@ header {
     padding: 0 0.5rem;
     display: flex;
     align-items: center;
-    color: #333;
+    color: #215f7c;
     font-size: 16px;
     text-decoration: none;
 }
@@ -47,11 +47,12 @@ header {
 }
 
 .header-right .link:hover {
-    color: #333;
+    color: #328db8;
 }
 
 #burger {
     display: none;
+    color: #215f7c;
 }
 
 @media screen and (max-width: 1000px) {

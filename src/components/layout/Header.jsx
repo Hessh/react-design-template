@@ -21,7 +21,7 @@ export class Header extends Component {
       linkArray[i].style.color = "#888";
       linkArray[i].style.textDecoration = "none";
     }
-    e.target.style.color = "#333";
+    e.target.style.color = "#215f7c";
     e.target.style.textDecoration = "underline";
 
     /** Burger menu */
