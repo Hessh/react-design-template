@@ -34,17 +34,19 @@ function App() {
     <Router>
       <div className="App">
         <Header />
-        <Route exact path="/"></Route>
-        <Route path="/layout" component={Layout} />
-        <Route path="/colors" component={Colors} />
-        <Route path="/fonts" component={Fonts} />
-        <Route path="/icons" component={Icons} />
-        <Route path="/illustrations" component={Illustrations} />
-        <Route path="/buttons" component={Buttons} />
-        <Route path="/links" component={Links} />
-        <Route path="/transitions" component={Transitions} />
-        <Route path="/animations" component={Animations} />
-        <Route path="/content" component={Content} />
+        <div class="container-fluid">
+          <Route exact path="/"></Route>
+          <Route path="/layout" component={Layout} />
+          <Route path="/colors" component={Colors} />
+          <Route path="/fonts" component={Fonts} />
+          <Route path="/icons" component={Icons} />
+          <Route path="/illustrations" component={Illustrations} />
+          <Route path="/buttons" component={Buttons} />
+          <Route path="/links" component={Links} />
+          <Route path="/transitions" component={Transitions} />
+          <Route path="/animations" component={Animations} />
+          <Route path="/content" component={Content} />
+        </div>
         <Footer />
       </div>
     </Router>

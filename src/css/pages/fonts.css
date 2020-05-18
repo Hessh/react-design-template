@@ -1,49 +1,157 @@
-h1, h2, h3, h4, h5 {
-    color: var(--title-color);
-    font-family: 'Freight', sans-serif;
-    letter-spacing: 1.1px;
-}
+/* CSS vi skal/kan ta med oss */
 
-h1 {
-    font-size: 108px;
-    line-height: 108.5px;
-}
+/* Tittel-font: Noto Serif */
 
-h2 {
-    font-size: 61px;
-    line-height: 67.5px;
-}
-
-h3 {
-    font-size: 45px;
-    line-height: 49.5px;
-}
-
-h4 {
-    font-size: 29px;
-    line-height: 25px;
-}
-
-h5 {
-    font-size: 11px;
-    line-height: 20px;
-}
-
-p {
-    color: var(--text-color);
-    font-family: 'Proxima Nova', sans-serif;
+@font-face {
+    font-family: "NotoSerif";
+    src: url("../../font/noto_serif/NotoSerif-Regular.ttf");
     font-weight: 400;
-    line-height: 25px;
 }
 
-.light {
+@font-face {
+    font-family: "NotoSerif";
+    src: url("../../font/noto_serif/NotoSerif-Bold.ttf");
+    font-weight: 800;
+}
+
+/* Tittel-font: Montserrat */
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("../../font/montserrat/Montserrat-Light.ttf");
     font-weight: 200;
 }
 
-.semibold {
+@font-face {
+    font-family: "Montserrat";
+    src: url("../../font/montserrat/Montserrat-Regular.ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("../../font/montserrat/Montserrat-SemiBold.ttf");
     font-weight: 600;
 }
 
-.bold {
+@font-face {
+    font-family: "Montserrat";
+    src: url("../../font/montserrat/Montserrat-Bold.ttf");
     font-weight: 800;
+}
+
+/* Paragraf-font: Roboto */
+
+@font-face {
+    font-family: "Roboto";
+    src: url("../../font/roboto/Roboto-Light.ttf");
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("../../font/roboto/Roboto-Regular.ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("../../font/roboto/Roboto-Medium.ttf");
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("../../font/roboto/Roboto-Bold.ttf");
+    font-weight: 800;
+}
+
+/* Paragraf-font: Noto Sans */
+
+@font-face {
+    font-family: "NotoSans";
+    src: url("../../font/noto_sans/NotoSans-Regular.ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "NotoSans";
+    src: url("../../font/noto_sans/NotoSans-Bold.ttf");
+    font-weight: 800;
+}
+
+/* Paragraf-font: Lato */
+
+@font-face {
+    font-family: "Lato";
+    src: url("../../font/lato/Lato-Light.ttf");
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url("../../font/lato/Lato-Regular.ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url("../../font/lato/Lato-Bold.ttf");
+    font-weight: 800;
+}
+
+/* Paragraf-font: Raleway */
+
+@font-face {
+    font-family: "Raleway";
+    src: url("../../font/raleway/Raleway-Light.ttf");
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: "Raleway";
+    src: url("../../font/raleway/Raleway-Regular.ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Raleway";
+    src: url("../../font/raleway/Raleway-SemiBold.ttf");
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "Raleway";
+    src: url("../../font/raleway/Raleway-Bold.ttf");
+    font-weight: 800;
+}
+
+/* CSS for fremvisning (kun her) */
+
+.fonts span {
+    color: red
+}
+
+.noto-serif {
+    font-family: 'NotoSerif', serif;
+}
+
+.montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+.noto-sans {
+    font-family: 'NotoSans', sans-serif;
+}
+
+.lato {
+    font-family: 'Lato', sans-serif;
+}
+
+.raleway {
+    font-family: 'Raleway', sans-serif;
 }

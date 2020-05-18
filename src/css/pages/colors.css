@@ -1,0 +1,67 @@
+/* Just a visualisation here */
+
+.palette-row {
+    margin-bottom: 6rem;
+}
+
+.palette-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.palette-wrapper {
+    width: 100%;
+}
+
+.color-box {
+    margin: 0 1rem;
+    padding: 6rem;
+    border-radius: 0.5rem;
+    background-color: #f0f0f0;
+    transition: transform 0.2s linear;
+    box-shadow: 0px 1px 5px 0px #00000030;
+}
+
+.color-box:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    box-shadow: 0px 1px 8px 0px #00000040;
+}
+
+.color-label {
+    text-align: center;
+    color: #a3a3a3
+}
+
+.palette-row-1 .box-1 {
+    background-color: ;
+}
+
+.palette-row-1 .box-2 {
+    background-color: ;
+}
+
+.palette-row-1 .box-3 {
+    background-color: ;
+}
+
+.palette-row-1 .box-4 {
+    background-color: ;
+}
+
+.palette-row-2 .box-1 {
+    background-color: ;
+}
+
+.palette-row-2 .box-2 {
+    background-color: ;
+}
+
+.palette-row-2 .box-3 {
+    background-color: ;
+}
+
+.palette-row-2 .box-4 {
+    background-color: ;
+}

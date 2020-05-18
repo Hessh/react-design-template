@@ -55,12 +55,6 @@ export class Header extends Component {
           </Link>
         </div>
         <div className="header-right" ref={this.headerRight}>
-          <Link className="link" onClick={this.toggleMenu} to="/layout">
-            LAYOUT
-          </Link>
-          <Link className="link" onClick={this.toggleMenu} to="/content">
-            CONTENT
-          </Link>
           <Link className="link" onClick={this.toggleMenu} to="/colors">
             COLORS
           </Link>
@@ -78,6 +72,12 @@ export class Header extends Component {
           </Link>
           <Link className="link" onClick={this.toggleMenu} to="/illustrations">
             ILLUSTRATIONS
+          </Link>
+          <Link className="link" onClick={this.toggleMenu} to="/content">
+            CONTENT
+          </Link>
+          <Link className="link" onClick={this.toggleMenu} to="/layout">
+            LAYOUT
           </Link>
           <Link className="link" onClick={this.toggleMenu} to="/transitions">
             TRANSITIONS

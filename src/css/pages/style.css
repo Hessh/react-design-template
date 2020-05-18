@@ -1,33 +1,37 @@
 /* The generic CSS that is implemented in every page */
 
-@font-face {
-    font-family: "Freight";
-    src: url("../../font/freight/freight-text-book.ttf");
+/* Fonts */
+
+/* @font-face {
+    font-family: "";
+    src: url("../../font/");
 }
 
 @font-face {
-    font-family: "Proxima Nova";
-    src: url("../../font/proximanova/proxima-nova-light.otf");
+    font-family: "";
+    src: url("../../font/");
     font-weight: 200;
 }
 
 @font-face {
-    font-family: "Proxima Nova";
-    src: url("../../font/proximanova/proxima-nova-regular.otf");
+    font-family: "";
+    src: url("../../font/");
     font-weight: 400;
 }
 
 @font-face {
-    font-family: "Proxima Nova";
-    src: url("../../font/proximanova/proxima-nova-semibold.otf");
+    font-family: "";
+    src: url("../../font/");
     font-weight: 600;
 }
 
 @font-face {
-    font-family: "Proxima Nova";
-    src: url("../../font/proximanova/proxima-nova-bold.otf");
+    font-family: "";
+    src: url("../../font/");
     font-weight: 800;
-}
+} */
+
+/* Commons */
 
 :root {
     --title-color: #151515;
@@ -42,8 +46,10 @@ body {
 
 * {
     box-sizing: border-box;
-    font-family: 'Proxima Nova', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Containers */
 
 .container-fluid {
     width: 100%;
@@ -53,4 +59,98 @@ body {
 .container {
     max-width: 1100px;
     margin: 0 auto;
+}
+
+/* Typografi */
+
+h1, h2, h3, h4, h5 {
+    color: var(--title-color);
+    letter-spacing: 1.1px;
+}
+
+h1 {
+    font-size: 108px;
+    line-height: 108.5px;
+}
+
+h2 {
+    font-size: 61px;
+    line-height: 67.5px;
+}
+
+h3 {
+    font-size: 45px;
+    line-height: 49.5px;
+}
+
+h4 {
+    font-size: 29px;
+    line-height: 25px;
+}
+
+h5 {
+    font-size: 11px;
+    line-height: 20px;
+}
+
+p {
+    color: var(--text-color);
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.light {
+    font-weight: 200;
+}
+
+.semibold {
+    font-weight: 600;
+}
+
+.bold {
+    font-weight: 800;
+}
+
+/* Media: Tablet */
+
+@media screen and (max-width: 1000px) {
+    /* Typografi */
+    h1 {
+        font-size: 108px;
+        line-height: 108.5px;
+    }
+    h2 {
+        font-size: 61px;
+        line-height: 67.5px;
+    }
+    h3 {
+        font-size: 45px;
+        line-height: 49.5px;
+    }
+    h4 {
+        font-size: 29px;
+        line-height: 25px;
+    }
+}
+
+/* Media: Mobile */
+
+@media screen and (max-width: 750px) {
+    /* Typografi */
+    h1 {
+        font-size: 108px;
+        line-height: 108.5px;
+    }
+    h2 {
+        font-size: 61px;
+        line-height: 67.5px;
+    }
+    h3 {
+        font-size: 45px;
+        line-height: 49.5px;
+    }
+    h4 {
+        font-size: 29px;
+        line-height: 25px;
+    }
 }
