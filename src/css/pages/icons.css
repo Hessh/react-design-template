@@ -1,33 +1,34 @@
 .icon-main-container {
     margin-bottom: 6rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;   
+    width: 70%;
 }
 
-.icon-container {
+.icon-container1 {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
 }
 
-.icon-wrapper {
+.icon-container2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.icon-wrapper1 {
     width: 100%;
+    color: #086E5E;
+    border-bottom: 1px solid lightgray;
 }
 
-.color-box {
-    margin: 0 1rem;
-    padding: 6rem;
-    border-radius: 0.5rem;
-    background-color: #f0f0f0;
-    transition: transform 0.2s linear;
-    box-shadow: 0px 1px 5px 0px #00000030;
+.icon-wrapper2 {
+    width: 100%;
+    color: #00AE5D;
+    border-bottom: 1px solid lightgray;
 }
 
-.color-box:hover {
-    cursor: pointer;
-    transform: scale(1.02);
-    box-shadow: 0px 1px 8px 0px #00000040;
-}
-
-.color-label {
-    text-align: center;
-    color: #a3a3a3
-}
+/*
+    color: #00AE5D; Lys grønn
+    color: #086E5E; Mørk grønn
+*/

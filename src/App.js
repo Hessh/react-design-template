@@ -22,10 +22,10 @@ import "./css/pages/home.css";
 
 /** Font Awesome Icons */
 import { library } from "@fortawesome/fontawesome-svg-core";
-import { faBars, faTimes, faLaptop } from "@fortawesome/free-solid-svg-icons";
+import { faBars, faTimes, faLaptop, faSave, faEdit, faUserCircle } from "@fortawesome/free-solid-svg-icons";
 
 /** Font Awesome Icon Library */
-library.add(faBars, faTimes, faLaptop);
+library.add(faBars, faTimes, faLaptop, faSave, faEdit, faUserCircle);
 
 /** Main component with layout and routing */
 function App() {
