@@ -124,6 +124,7 @@ export class Colors extends Component {
               <div className="color-box box-1"></div>
               <p className="color-label">#66180C</p>
             </div>
+            
             <div className="palette-wrapper">
               <div className="color-box box-2"></div>
               <p className="color-label">#B35134</p>
