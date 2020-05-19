@@ -36,9 +36,9 @@ function App() {
     <Router>
       <div className="App">
         <Header />
-        <div class="container-fluid">
+        <div className="container-fluid">
           <Route exact path="/">
-            <div class="container">
+            <div className="container">
               <h4>Design categories</h4>
               <div className="cat-container">
                 <Link className="cat-wrapper" to="/colors">
