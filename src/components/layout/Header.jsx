@@ -76,15 +76,6 @@ export class Header extends Component {
           <Link className="link" onClick={this.toggleMenu} to="/content">
             CONTENT
           </Link>
-          <Link className="link" onClick={this.toggleMenu} to="/layout">
-            LAYOUT
-          </Link>
-          <Link className="link" onClick={this.toggleMenu} to="/transitions">
-            TRANSITIONS
-          </Link>
-          <Link className="link" onClick={this.toggleMenu} to="/animations">
-            ANIMATIONS
-          </Link>
         </div>
         <FontAwesomeIcon
           icon={showMenu ? "times" : "bars"}
