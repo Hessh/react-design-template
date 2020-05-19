@@ -1,17 +1,157 @@
-.btn-container {}
+/* Just for this presentation */
 
-.btn-wrapper {}
+.btn-main-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
 
-/* CTA-buttons */
+.btn-container {
+    width: 50%;
+    margin: 0 0 3rem 0;
+    padding: 0 0 3rem 0;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid lightgray;
+}
 
-.cta-button {}
+.btn-container h4 {
+    margin: 1rem 0;
+    text-align: center;
+}
+
+.btn-container h5 {
+    margin-left: 6rem;
+}
+
+.default-container {
+    margin: 0 0 2rem 0;
+}
+
+.btn-wrapper {
+    margin: 0 2rem 2rem 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.btn-wrapper button {
+    margin: 0 1rem;
+}
+
+.default-wrapper {
+    margin: 2rem 0 1rem;
+}
+
+/* Styles we might use in the project */
+
+/* Our default button design*/
+
+button {
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.cta-button {
+    padding: 1rem 1.5rem;
+    color: #fff;
+}
+
+.filter-button {
+    padding: 0.5rem 1rem;
+    border: 1px solid #000;
+    color: #000;
+}
+
+/* Square flat */
+
+.square-flat {
+    border-radius: 0.2rem;
+}
+
+/* Square shadow */
+
+.square-shadow {
+    border-radius: 0.2rem;
+    box-shadow: 0px 2px 6px 0px #00000030;
+}
+
+/* Rounded flat */
+
+.rounded-flat {
+    border-radius: 1.5rem;
+}
+
+/* Rounded shadow */
+
+.rounded-shadow {
+    border-radius: 1.5rem;
+    box-shadow: 0px 2px 6px 0px #00000030;
+}
 
 /* Colors */
 
 .green {
-    background: #FFA03D;
+    background-color: #086E5E;
 }
 
-.dark-green {
-    background: #2B1C00;
+.strong-green {
+    background-color: #00AE5D;
+}
+
+/* Hover effects */
+
+.btn-hover-container {
+    width: 100%;
+}
+
+.hover-size {
+    transition: transform 0.2s linear;
+}
+
+.hover-shadow {
+    transition: box-shadow 0.2s linear;
+}
+
+.hover-color-green {
+    transition: background-color 0.2s linear;
+}
+
+.hover-color-strong-green {
+    transition: background-color 0.2s linear;
+}
+
+.hover-size:hover {
+    transform: scale(1.04);
+}
+
+.hover-shadow:hover {
+    box-shadow: 0px 2px 6px 2px #00000030;
+}
+
+.hover-color-green:hover {
+    background-color: #054e43;
+}
+
+.hover-color-strong-green:hover {
+    background-color: #00743e;
+}
+
+@media screen and (max-width: 1000px) {
+    .btn-main-container {
+        flex-direction: column;
+    }
+    .btn-container {
+        width: 100%;
+    }
+    .btn-container h4 {
+        text-align: left;
+    }
+    .btn-container h5 {
+        margin-left: 2rem;
+    }
 }
