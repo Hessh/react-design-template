@@ -1,8 +1,26 @@
 import React, { Component } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+import "../../css/pages/icons.css";
 
 export class Icons extends Component {
   render() {
-    return <div></div>;
+    return (
+      <div className="container">
+        <div className="icon-container">
+          <h4>Header icons</h4>
+          <div className="icon-wrapper">
+            <FontAwesomeIcon icon="bars" />
+            <FontAwesomeIcon icon="times" />
+          </div>
+          <h4>Noe annet</h4>
+          <div className="icon-wrapper">
+            <FontAwesomeIcon icon="" />
+            <FontAwesomeIcon icon="" />
+          </div>
+        </div>
+      </div>
+    );
   }
 }
 
