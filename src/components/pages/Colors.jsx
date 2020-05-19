@@ -8,7 +8,7 @@ export class Colors extends Component {
       <div className="container">
         {/* Palett nr 1 */}
         <div className="palette-row palette-row-1">
-          <h4>Primary: Environment</h4>
+          <h4>Primary: Environment </h4>
           <div className="palette-container">
             <div className="palette-wrapper">
               <div className="color-box box-1"></div>
@@ -30,7 +30,7 @@ export class Colors extends Component {
         </div>
         {/* Palett nr 2 */}
         <div className="palette-row palette-row-2">
-          <h4>Complimentary: Environment</h4>
+          <h4>Complimentary: Environment </h4>
           <div className="palette-container">
             <div className="palette-wrapper">
               <div className="color-box box-1"></div>
