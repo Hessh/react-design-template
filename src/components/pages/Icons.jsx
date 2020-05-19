@@ -13,9 +13,9 @@ export class Icons extends Component {
             <FontAwesomeIcon icon="bars" />
             <FontAwesomeIcon icon="times" />
           </div>
-          <h4>Noe annet</h4>
+          <h4>Slik fungerer det</h4>
           <div className="icon-wrapper">
-            <FontAwesomeIcon icon="" />
+            <FontAwesomeIcon icon="faLaptop" />
             <FontAwesomeIcon icon="" />
           </div>
         </div>
