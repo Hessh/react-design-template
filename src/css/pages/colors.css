@@ -158,7 +158,7 @@
     background-color: #59463C;
 }
 
-.palette-row-8 .box-2 {
+/* .palette-row-8 .box-2 {
     background-color: ;
 }
 
@@ -168,14 +168,23 @@
 
 .palette-row-8 .box-4 {
     background-color: ;
-}
+} */
 
 @media screen and (max-width: 1000px) {
+    .palette-container {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
     .palette-row {
         margin-bottom: 4rem;
     }
+    .palette-wrapper {
+        width: 25%;
+    }
     .color-box {
-        margin: 0 0.5rem;
-        padding: 2rem;
+        margin: 0 0.5rem !important;
+        padding: 2rem !important;
     }
 }

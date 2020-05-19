@@ -6,7 +6,7 @@ import "../../css/pages/icons.css";
 export class Icons extends Component {
   render() {
     return (
-      <div className="container">
+      <div className="container icon-main-container">
         <div className="icon-container">
           <h4>Header icons</h4>
           <div className="icon-wrapper">
