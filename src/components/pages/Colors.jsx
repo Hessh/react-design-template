@@ -96,7 +96,7 @@ export class Colors extends Component {
         </div>
         {/* Palett nr 5 */}
         <div className="palette-row palette-row-5">
-          <h4>Primary: Environment cold</h4>
+          <h4>Primary: Environment strong</h4>
           <div className="palette-container">
             <div className="palette-wrapper">
               <div className="color-box box-1"></div>
@@ -118,7 +118,7 @@ export class Colors extends Component {
         </div>
         {/* Palett nr 6 */}
         <div className="palette-row palette-row-6">
-          <h4>Complimentary: Environment cold</h4>
+          <h4>Complimentary: Environment strong</h4>
           <div className="palette-container">
             <div className="palette-wrapper">
               <div className="color-box box-1"></div>
@@ -140,7 +140,7 @@ export class Colors extends Component {
         </div>
          {/* Palett nr 7 */}
          <div className="palette-row palette-row-7">
-          <h4>Primary: Environment strong</h4>
+          <h4>Primary: Innovation, new thinking</h4>
           <div className="palette-container">
             <div className="palette-wrapper">
               <div className="color-box box-1"></div>
@@ -162,7 +162,7 @@ export class Colors extends Component {
         </div>
         {/* Palett nr 8 */}
         <div className="palette-row palette-row-8">
-          <h4>Primary: Innovation, new thinking</h4>
+          <h4>Complimentary: Innovation, new thinking</h4>
           <div className="palette-container">
             <div className="palette-wrapper">
               <div className="color-box box-1"></div>
