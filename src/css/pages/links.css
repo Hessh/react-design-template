@@ -1,0 +1,65 @@
+.link-wrapper {
+    margin-bottom: 4rem;
+}
+
+/* Default */
+
+.link-container a {
+    text-decoration: none;
+}
+
+/* EXAMPLE 1 */
+
+/* unvisited link */
+
+.example-1 a {
+    color: #00AE5D;
+}
+
+/* visited link */
+
+/* .example-1 a:visited {
+    color: #00743e;
+} */
+
+/* mouse over link */
+
+.example-1 a:hover {
+    color: #00743e;
+    text-decoration: underline;
+}
+
+/* selected link */
+
+.example-1 a:active {
+    color: #00743e;
+    text-decoration: underline;
+}
+
+/* EXAMPLE 2 */
+
+/* unvisited link */
+
+.example-2 a {
+    color: #1789d5;
+}
+
+/* visited link */
+
+/* .example-2 a:visited {
+    color: #1268a1;
+} */
+
+/* mouse over link */
+
+.example-2 a:hover {
+    color: #1268a1;
+    text-decoration: underline;
+}
+
+/* selected link */
+
+.example-2 a:active {
+    color: #1268a1;
+    text-decoration: underline;
+}
