@@ -138,25 +138,25 @@ export class Colors extends Component {
             </div>
           </div>
         </div>
-         {/* Palett nr 7 */}
-         <div className="palette-row palette-row-7">
+        {/* Palett nr 7 */}
+        <div className="palette-row palette-row-7">
           <h4>Primary: Innovation, new thinking</h4>
           <div className="palette-container">
             <div className="palette-wrapper">
               <div className="color-box box-1"></div>
-              <p className="color-label">#2B1C00</p>
+              <p className="color-label">#25423C</p>
             </div>
             <div className="palette-wrapper">
               <div className="color-box box-2"></div>
-              <p className="color-label">#FFA03D</p>
+              <p className="color-label">#086E5E</p>
             </div>
             <div className="palette-wrapper">
               <div className="color-box box-3"></div>
-              <p className="color-label">#FFBA68</p>
+              <p className="color-label">#C0CAAD</p>
             </div>
             <div className="palette-wrapper">
               <div className="color-box box-4"></div>
-              <p className="color-label">#FFC87A</p>
+              <p className="color-label">#FFF9E9</p>
             </div>
           </div>
         </div>
@@ -166,19 +166,19 @@ export class Colors extends Component {
           <div className="palette-container">
             <div className="palette-wrapper">
               <div className="color-box box-1"></div>
-              <p className="color-label">#DB852C</p>
+              <p className="color-label">#59463C</p>
             </div>
             <div className="palette-wrapper">
               <div className="color-box box-2"></div>
-              <p className="color-label">#FFBC67</p>
+              <p className="color-label">#</p>
             </div>
             <div className="palette-wrapper">
               <div className="color-box box-3"></div>
-              <p className="color-label">#FFE478</p>
+              <p className="color-label">#</p>
             </div>
             <div className="palette-wrapper">
               <div className="color-box box-4"></div>
-              <p className="color-label">#FFF1BB</p>
+              <p className="color-label">#</p>
             </div>
           </div>
         </div>
