@@ -1,139 +1,13 @@
-/* CSS vi skal/kan ta med oss */
+/* CSS for fonter (kun her) */
 
-/* Tittel-font: Noto Serif */
-
-@font-face {
-    font-family: "NotoSerif";
-    src: url("../../font/noto_serif/NotoSerif-Regular.ttf");
-    font-weight: 400;
-}
-
-@font-face {
-    font-family: "NotoSerif";
-    src: url("../../font/noto_serif/NotoSerif-Bold.ttf");
-    font-weight: 800;
-}
-
-/* Tittel-font: Montserrat */
-
-@font-face {
-    font-family: "Montserrat";
-    src: url("../../font/montserrat/Montserrat-Light.ttf");
-    font-weight: 200;
-}
-
-@font-face {
-    font-family: "Montserrat";
-    src: url("../../font/montserrat/Montserrat-Regular.ttf");
-    font-weight: 400;
-}
-
-@font-face {
-    font-family: "Montserrat";
-    src: url("../../font/montserrat/Montserrat-SemiBold.ttf");
-    font-weight: 600;
-}
-
-@font-face {
-    font-family: "Montserrat";
-    src: url("../../font/montserrat/Montserrat-Bold.ttf");
-    font-weight: 800;
-}
-
-/* Paragraf-font: Roboto */
-
-@font-face {
-    font-family: "Roboto";
-    src: url("../../font/roboto/Roboto-Light.ttf");
-    font-weight: 200;
-}
-
-@font-face {
-    font-family: "Roboto";
-    src: url("../../font/roboto/Roboto-Regular.ttf");
-    font-weight: 400;
-}
-
-@font-face {
-    font-family: "Roboto";
-    src: url("../../font/roboto/Roboto-Medium.ttf");
-    font-weight: 600;
-}
-
-@font-face {
-    font-family: "Roboto";
-    src: url("../../font/roboto/Roboto-Bold.ttf");
-    font-weight: 800;
-}
-
-/* Paragraf-font: Noto Sans */
-
-@font-face {
-    font-family: "NotoSans";
-    src: url("../../font/noto_sans/NotoSans-Regular.ttf");
-    font-weight: 400;
-}
-
-@font-face {
-    font-family: "NotoSans";
-    src: url("../../font/noto_sans/NotoSans-Bold.ttf");
-    font-weight: 800;
-}
-
-/* Paragraf-font: Lato */
-
-@font-face {
-    font-family: "Lato";
-    src: url("../../font/lato/Lato-Light.ttf");
-    font-weight: 200;
-}
-
-@font-face {
-    font-family: "Lato";
-    src: url("../../font/lato/Lato-Regular.ttf");
-    font-weight: 400;
-}
-
-@font-face {
-    font-family: "Lato";
-    src: url("../../font/lato/Lato-Bold.ttf");
-    font-weight: 800;
-}
-
-/* Paragraf-font: Raleway */
-
-@font-face {
-    font-family: "Raleway";
-    src: url("../../font/raleway/Raleway-Light.ttf");
-    font-weight: 200;
-}
-
-@font-face {
-    font-family: "Raleway";
-    src: url("../../font/raleway/Raleway-Regular.ttf");
-    font-weight: 400;
-}
-
-@font-face {
-    font-family: "Raleway";
-    src: url("../../font/raleway/Raleway-SemiBold.ttf");
-    font-weight: 600;
-}
-
-@font-face {
-    font-family: "Raleway";
-    src: url("../../font/raleway/Raleway-Bold.ttf");
-    font-weight: 800;
-}
-
-/* CSS for fremvisning (kun her) */
+/* Hent ut navnet på fonten og putt i style.css */
 
 .fonts span {
     color: red
 }
 
 .noto-serif {
-    font-family: 'NotoSerif', serif;
+    font-family: 'Noto Serif', serif;
 }
 
 .montserrat {
@@ -145,7 +19,7 @@
 }
 
 .noto-sans {
-    font-family: 'NotoSans', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 .lato {
