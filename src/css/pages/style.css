@@ -34,8 +34,13 @@
 /* Commons */
 
 :root {
+    --primary-color: #086E5E;
+    --cta-color: #00743e;
+    --cta-color-accent: #00AE5D;
     --title-color: #151515;
     --text-color: #121212;
+    --bg-primary-color: #ffffff;
+    --bg-secondary-color: #FFF9E9;
 }
 
 html {

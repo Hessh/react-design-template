@@ -25,7 +25,7 @@ header {
     padding: 0 0.5rem;
     display: flex;
     align-items: center;
-    color: #215f7c;
+    color: var(--cta-color);
     font-size: 16px;
     text-decoration: none;
 }
@@ -47,12 +47,12 @@ header {
 }
 
 .header-right .link:hover {
-    color: #328db8;
+    color: var(--cta-color-accent);
 }
 
 #burger {
     display: none;
-    color: #215f7c;
+    color: var(--cta-color);
 }
 
 @media screen and (max-width: 1000px) {
