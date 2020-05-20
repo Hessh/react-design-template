@@ -34,9 +34,12 @@
 /* Commons */
 
 :root {
-    --primary-color: #086E5E;
-    --cta-color: #00743e;
-    --cta-color-accent: #00AE5D;
+    --primary-color: #2391D3;
+    --sec-color: #022C3F;
+    --comp-color: #FA4A64;
+    --comp-color-accent: #FF6F16;
+    --cta-color: #2BA358;
+    --cta-color-accent: #40B36C;
     --title-color: #151515;
     --text-color: #121212;
     --bg-primary-color: #ffffff;

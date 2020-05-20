@@ -69,43 +69,31 @@
     box-shadow: 0px 1px 5px 0px #00000030;
 }
 
+.content-wrapper .color-label {
+    color: #FFF;
+}
+
 .content-wrapper .box-1 {
     background: var(--primary-color);
 }
 
 .content-wrapper .box-2 {
-    background: var();
+    background: var(--sec-color);
 }
 
 .content-wrapper .box-3 {
-    background: var();
+    background: var(--comp-color);
 }
 
 .content-wrapper .box-4 {
-    background: var();
+    background: var(--comp-color-accent);
 }
 
 .content-wrapper .box-5 {
-    background: var();
-}
-
-.content-wrapper .box-6 {
-    background: var();
-}
-
-.content-wrapper .box-7 {
-    background: var();
-}
-
-.content-wrapper .box-8 {
-    background: var();
-}
-
-.content-wrapper .box-9 {
     background: var(--cta-color);
 }
 
-.content-wrapper .box-10 {
+.content-wrapper .box-6 {
     background: var(--cta-color-accent);
 }
 
@@ -145,7 +133,7 @@
 
 .content-wrapper .cta-button:hover {
     background-color: var(--cta-color-accent);
-    box-shadow: 0px 2px 6px 1px #00000050;
+    box-shadow: 0px 2px 6px 0px #00000050;
 }
 
 .content-wrapper .more-button {

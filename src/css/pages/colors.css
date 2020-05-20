@@ -161,9 +161,41 @@
 
 .palette-row-8 .box-2 {
     background-color: #FFF9E9;
-    
 }
 
+/* FARGE 9 og 10 */
+
+.palette-row-9 .box-1 {
+    background-color: #2BA358;
+}
+
+.palette-row-9 .box-2 {
+    background-color: #11522D;
+}
+
+.palette-row-9 .box-3 {
+    background-color: #2391D3;
+}
+
+.palette-row-9 .box-4 {
+    background-color: #022C3F;
+}
+
+.palette-row-10 .box-1 {
+    background-color: #40B36C;
+}
+
+.palette-row-10 .box-2 {
+    background-color: #FA4A64;
+}
+
+.palette-row-10 .box-3 {
+    background-color: #FFDC5C;
+}
+
+.palette-row-10 .box-4 {
+    background-color: #FF6F16;
+}
 
 @media screen and (max-width: 1000px) {
     .palette-container {

@@ -175,6 +175,50 @@ export class Colors extends Component {
             </div>
           </div>
         </div>
+        {/* Palett nr 9 */}
+        <div className="palette-row palette-row-9">
+          <h4>Primary: Environment Clean</h4>
+          <div className="palette-container">
+            <div className="palette-wrapper">
+              <div className="color-box box-1"></div>
+              <p className="color-label">#2BA358</p>
+            </div>
+            <div className="palette-wrapper">
+              <div className="color-box box-2"></div>
+              <p className="color-label">#11522D</p>
+            </div>
+            <div className="palette-wrapper">
+              <div className="color-box box-3"></div>
+              <p className="color-label">#2391D3</p>
+            </div>
+            <div className="palette-wrapper">
+              <div className="color-box box-4"></div>
+              <p className="color-label">#022C3F</p>
+            </div>
+          </div>
+        </div>
+        {/* Palett nr 10 */}
+        <div className="palette-row palette-row-10">
+          <h4>Complimentary: Environment Clean</h4>
+          <div className="palette-container">
+            <div className="palette-wrapper">
+              <div className="color-box box-1"></div>
+              <p className="color-label">#40B36C</p>
+            </div>
+            <div className="palette-wrapper">
+              <div className="color-box box-2"></div>
+              <p className="color-label">#FA4A64</p>
+            </div>
+            <div className="palette-wrapper">
+              <div className="color-box box-3"></div>
+              <p className="color-label">#FFDC5C</p>
+            </div>
+            <div className="palette-wrapper">
+              <div className="color-box box-4"></div>
+              <p className="color-label">#FF6F16</p>
+            </div>
+          </div>
+        </div>
       </div>
     );
   }

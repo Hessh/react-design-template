@@ -48,41 +48,41 @@ export class Home extends Component {
           <div className="palette-container">
             <div className="palette-wrapper">
               <div className="color-box box-1">
-                <p className="color-label">#</p>
+                <p className="color-label">#2391D3</p>
               </div>
             </div>
             <div className="palette-wrapper">
               <div className="color-box box-2">
-                <p className="color-label">#</p>
+                <p className="color-label">#022C3F</p>
               </div>
             </div>
           </div>
           <h5>Secondary: (complimentary)</h5>
           <div className="palette-container">
             <div className="palette-wrapper">
-              <div className="color-box box-5">
-                <p className="color-label">#</p>
+              <div className="color-box box-3">
+                <p className="color-label">#FA4A64</p>
               </div>
             </div>
             <div className="palette-wrapper">
-              <div className="color-box box-6">
-                <p className="color-label">#</p>
+              <div className="color-box box-4">
+                <p className="color-label">#FF6F16</p>
               </div>
             </div>
           </div>
           <h5>CTA:</h5>
           <div className="palette-container">
             <div className="palette-wrapper">
-              <div className="color-box box-9">
-                <p className="color-label">#</p>
+              <div className="color-box box-5">
+                <p className="color-label">#2BA358</p>
               </div>
             </div>
           </div>
           <h5>CTA accent:</h5>
           <div className="palette-container">
             <div className="palette-wrapper">
-              <div className="color-box box-10">
-                <p className="color-label">#</p>
+              <div className="color-box box-6">
+                <p className="color-label">#40B36C</p>
               </div>
             </div>
           </div>
