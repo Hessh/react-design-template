@@ -12,6 +12,7 @@
 
 .palette-wrapper {
     width: 100%;
+    border-bottom: 1px solid lightgray;
 }
 
 .color-box {
@@ -139,36 +140,30 @@
 /* FARGE 4*/
 
 .palette-row-7 .box-1 {
-    background-color: #25423C;
-}
-
-.palette-row-7 .box-2 {
     background-color: #086E5E;
 }
 
+.palette-row-7 .box-2 {
+    background-color: #00AE5D;
+}
+
 .palette-row-7 .box-3 {
-    background-color: #C0CAAD;
+    background-color: #C8D1B7;
 }
 
 .palette-row-7 .box-4 {
-    background-color: #FFF9E9;
+    background-color: #EBF0E3;
 }
 
 .palette-row-8 .box-1 {
     background-color: #59463C;
 }
 
-/* .palette-row-8 .box-2 {
-    background-color: ;
+.palette-row-8 .box-2 {
+    background-color: #FFF9E9;
+    
 }
 
-.palette-row-8 .box-3 {
-    background-color: ;
-}
-
-.palette-row-8 .box-4 {
-    background-color: ;
-} */
 
 @media screen and (max-width: 1000px) {
     .palette-container {

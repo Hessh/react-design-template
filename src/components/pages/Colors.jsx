@@ -6,6 +6,45 @@ export class Colors extends Component {
   render() {
     return (
       <div className="container">
+        {/* Palett nr 7 */}
+        <div className="palette-row palette-row-7">
+          <h3>Final decition 1:</h3>
+          <h4>Primary: Innovation, new thinking</h4>
+          <div className="palette-container">
+            <div className="palette-wrapper">
+              <div className="color-box box-1"></div>
+              <p className="color-label">#086E5E</p>
+            </div>
+            <div className="palette-wrapper">
+              <div className="color-box box-2"></div>
+              <p className="color-label">#00AE5D</p>
+            </div>
+            <div className="palette-wrapper">
+              <div className="color-box box-3"></div>
+              <p className="color-label">#C8D1B7</p>
+            </div>
+            <div className="palette-wrapper">
+              <div className="color-box box-4"></div>
+              <p className="color-label">#EBF0E3</p>
+            </div>
+          </div>
+        </div>
+        {/* Palett nr 8 */}
+        <div className="palette-row palette-row-8">
+          <h3>Final decition 2:</h3>
+          <h4>Complimentary to the final</h4>
+          <div className="palette-container">
+            <div className="palette-wrapper">
+              <div className="color-box box-1"></div>
+              <p className="color-label">#59463C</p>
+            </div>
+            <div className="palette-wrapper">
+              <div className="color-box box-2"></div>
+              <p className="color-label">#FFF9E9</p>
+            </div>
+           </div>
+           </div>
+
         {/* Palett nr 1 */}
         <div className="palette-row palette-row-1">
           <h4>Primary: Environment </h4>
@@ -138,50 +177,7 @@ export class Colors extends Component {
             </div>
           </div>
         </div>
-        {/* Palett nr 7 */}
-        <div className="palette-row palette-row-7">
-          <h4>Primary: Innovation, new thinking</h4>
-          <div className="palette-container">
-            <div className="palette-wrapper">
-              <div className="color-box box-1"></div>
-              <p className="color-label">#25423C</p>
-            </div>
-            <div className="palette-wrapper">
-              <div className="color-box box-2"></div>
-              <p className="color-label">#086E5E</p>
-            </div>
-            <div className="palette-wrapper">
-              <div className="color-box box-3"></div>
-              <p className="color-label">#C0CAAD</p>
-            </div>
-            <div className="palette-wrapper">
-              <div className="color-box box-4"></div>
-              <p className="color-label">#FFF9E9</p>
-            </div>
-          </div>
-        </div>
-        {/* Palett nr 8 */}
-        <div className="palette-row palette-row-8">
-          <h4>Complimentary: Innovation, new thinking</h4>
-          <div className="palette-container">
-            <div className="palette-wrapper">
-              <div className="color-box box-1"></div>
-              <p className="color-label">#59463C</p>
-            </div>
-            <div className="palette-wrapper">
-              <div className="color-box box-2"></div>
-              <p className="color-label">#</p>
-            </div>
-            <div className="palette-wrapper">
-              <div className="color-box box-3"></div>
-              <p className="color-label">#</p>
-            </div>
-            <div className="palette-wrapper">
-              <div className="color-box box-4"></div>
-              <p className="color-label">#</p>
-            </div>
-          </div>
-        </div>
+        
       </div>
     );
   }
