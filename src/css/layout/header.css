@@ -55,6 +55,12 @@ header {
     color: var(--cta-color);
 }
 
+.header-right .active-link {
+    padding: 0 0.5rem;
+    color: var(--cta-color);
+    text-decoration: underline;
+}
+
 @media screen and (max-width: 1000px) {
     #burger {
         display: flex;
@@ -88,5 +94,17 @@ header {
     }
     .header-left .link:nth-of-type(1) {
         margin-left: 1rem;
+    }
+    .header-right .active-link {
+        width: 100%;
+        height: 100%;
+        padding: 1.5rem;
+        display: flex;
+        align-items: center;
+        color: #333;
+        font-size: 16px;
+        text-decoration: none;
+        border-bottom: 1px solid #ccc;
+        background: #fff;
     }
 }

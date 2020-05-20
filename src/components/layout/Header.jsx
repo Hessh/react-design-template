@@ -14,17 +14,8 @@ export class Header extends Component {
     this.headerRight = React.createRef();
   }
 
+  /** Show/hide Burger menu on mobile */
   toggleMenu = (e) => {
-    /** Desktop styling */
-    let linkArray = this.headerRight.current.childNodes;
-    for (let i = 0; i < linkArray.length; i++) {
-      linkArray[i].style.color = "#888";
-      linkArray[i].style.textDecoration = "none";
-    }
-    e.target.style.color = "#2BA358";
-    e.target.style.textDecoration = "underline";
-
-    /** Burger menu */
     let showMenu = this.state.showMenu;
     if (!showMenu && window.innerWidth < 1000) {
       this.headerRight.current.style.display = "flex";
@@ -40,40 +31,64 @@ export class Header extends Component {
   toggleHome = () => {
     let linkArray = this.headerRight.current.childNodes;
     for (let i = 0; i < linkArray.length; i++) {
-      linkArray[i].style.color = "#888";
-      linkArray[i].style.textDecoration = "none";
+      linkArray[i].setAttribute("class", "link");
+      linkArray[0].setAttribute("class", "active-link");
     }
   };
+
+  active = (e) => {
+    // let linkArray = this.headerRight.current.childNodes;
+    // let pathname = window.location.pathname;
+    // for (let i = 0; i < linkArray.length; i++) {
+    //   let href = linkArray[i].getAttribute("href");
+    //   if (href == pathname) {
+    //     linkArray[i].setAttribute("class", "link active-link");
+    //   } else {
+    //     linkArray[i].setAttribute("class", "link");
+    //   }
+    // }
+    let linkArray = this.headerRight.current.childNodes;
+    for (let i = 0; i < linkArray.length; i++) {
+      console.log(linkArray[i]);
+      linkArray[i].setAttribute("class", "link");
+    }
+    e.target.setAttribute("class", "link active-link");
+  };
+
+  componentDidMount() {}
 
   render() {
     let showMenu = this.state.showMenu;
     return (
       <header ref={this.header}>
         <div className="header-left">
-          <Link to="/" className="link" onClick={this.toggleHome}>
+          <Link className="link" onClick={this.toggleHome} to="/">
             <span>Design Template</span>
           </Link>
         </div>
         <div className="header-right" ref={this.headerRight}>
-          <Link className="link" onClick={this.toggleMenu} to="/colors">
+          <Link className="link" onClick={this.active} to="/">
+            HOME
+          </Link>
+          <Link className="link" onClick={this.active} to="/colors">
             COLORS
           </Link>
-          <Link className="link" onClick={this.toggleMenu} to="/fonts">
+          <Link className="link" onClick={this.active} to="/fonts">
             FONTS
           </Link>
-          <Link className="link" onClick={this.toggleMenu} to="/buttons">
+          <Link className="link" onClick={this.active} to="/buttons">
             BUTTONS
           </Link>
-          <Link className="link" onClick={this.toggleMenu} to="/links">
+          <Link className="link" onClick={this.active} to="/links">
             LINKS
           </Link>
-          <Link className="link" onClick={this.toggleMenu} to="/icons">
+          <Link className="link" onClick={this.active} to="/icons">
             ICONS
           </Link>
-          <Link className="link" onClick={this.toggleMenu} to="/illustrations">
+          <Link className="link" onClick={this.active} to="/illustrations">
             ILLUSTRATIONS
           </Link>
-          <Link className="link" onClick={this.toggleMenu} to="/content">
+          <Link className="link" onClick={this.active} to="/content">
             CONTENT
           </Link>
         </div>

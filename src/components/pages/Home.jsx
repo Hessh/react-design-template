@@ -11,7 +11,7 @@ export class Home extends Component {
         <div className="content-wrapper">
           <h3>Categorized examples</h3>
           <div className="cat-container">
-            <Link className="cat-wrapper" to="/colors">
+            <Link className="cat-wrapper" to="/colors" onClick={this.test}>
               <div className="cat-box">C</div>
               <p className="cat-label">Colors</p>
             </Link>
