@@ -1,39 +1,7 @@
-/* The generic CSS that is implemented in every page */
-
-/* Fonts */
-
-/* @font-face {
-    font-family: "";
-    src: url("../../font/");
-}
-
-@font-face {
-    font-family: "";
-    src: url("../../font/");
-    font-weight: 200;
-}
-
-@font-face {
-    font-family: "";
-    src: url("../../font/");
-    font-weight: 400;
-}
-
-@font-face {
-    font-family: "";
-    src: url("../../font/");
-    font-weight: 600;
-}
-
-@font-face {
-    font-family: "";
-    src: url("../../font/");
-    font-weight: 800;
-} */
-
 /* Commons */
 
 :root {
+    /* Colors */
     --primary-color: #2391D3;
     --sec-color: #022C3F;
     --comp-color: #FA4A64;
@@ -44,6 +12,9 @@
     --text-color: #121212;
     --bg-primary-color: #ffffff;
     --bg-secondary-color: #FFF9E9;
+    /* Widths */
+    --width-large: 1100px;
+    --width-small: 900px;
 }
 
 html {
@@ -61,6 +32,15 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+a, button, input[type="submit"] {
+    cursor: pointer;
+}
+
+button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+
 /* Containers */
 
 .container-fluid {
@@ -69,15 +49,16 @@ body {
 }
 
 .container {
-    max-width: 1100px;
+    max-width: var(--width-large);
     margin: 0 auto;
 }
 
 /* Typografi */
 
 h1, h2, h3, h4, h5 {
-    color: var(--title-color);
+    font-family: 'Noto Serif', serif;
     letter-spacing: 1.1px;
+    color: var(--title-color);
 }
 
 h1 {
@@ -106,14 +87,11 @@ h5 {
 }
 
 p {
-    color: var(--text-color);
+    font-family: 'Lato', sans-serif;
     font-size: 1.125rem;
     font-weight: 400;
     line-height: 25px;
-}
-
-.light {
-    font-weight: 200;
+    color: var(--text-color);
 }
 
 .semibold {
@@ -122,6 +100,16 @@ p {
 
 .bold {
     font-weight: 800;
+}
+
+p a {
+    color: #1789d5;
+    text-decoration: none;
+}
+
+p a:hover, p a:active {
+    color: #1268a1;
+    text-decoration: underline;
 }
 
 /* Media: Tablet */
