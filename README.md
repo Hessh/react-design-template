@@ -1,68 +1,68 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `yarn start`
-
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
 ## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+To learn more about Next.js, take a look at the following resources:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-### Code Splitting
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+## Deploy on Vercel
 
-### Analyzing the Bundle Size
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
-### Making a Progressive Web App
+## Deploy your own
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+Deploy the example using [Vercel](https://vercel.com):
 
-### Advanced Configuration
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/vercel/next.js/tree/canary/examples/with-apollo)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+## How to use
 
-### Deployment
+Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+```bash
+npx create-next-app --example with-apollo with-apollo-app
+# or
+yarn create next-app --example with-apollo with-apollo-app
+```
 
-### `yarn build` fails to minify
+Deploy it to the cloud with [Vercel](https://vercel.com/import?filter=next.js&utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+# Git branching
+
+## Use of the dev-branch
+
+1. Run the command `git checkout master`- Switches to the _master_-branch, if you are not already in it.
+
+2. Run the command `git pull`- Fetches the latest updates on the _master_-branch.
+
+3. Run the command `git checkout -b dev`- Creates a new branch with the name “dev” and switches to this branch.
+
+4. Run the command `git pull origin master`- This brings the latest version of the _master_-branch into your _dev_-branch. Although point 2 also does this, it is good practice to do this as well.
+
+5. Develop in _feature_-branches, and merge all _feature_-branches into this branch
+
+6. Run the command `git pull origin master` - This brings the latest version of the _master_-branch into your _dev_-branch. This is done because we want to deal with potential merge-conflicts locally. - This command MUST be run before you merge your _dev_-branch into the _master_-branch, but it can be run during the dev for a more incremental handling of various tasks.
+
+7. Start a Pull-request on GitHub for your _dev_-branch into the _master_-branch.
+
+## Use of the Feature-branches
+
+1. Run the command `git checkout dev`- Switches to the _dev_-branch, if you are not already in it.
+
+2. Run the command `git pull` - Fetches the latest updates on the _dev_-branch.
+
+3. Run the command `git checkout -b feature/[FEATURE NAME]` - Creates a new branch with the name “feature/[FEATURE NAME]” and switches to this branch.
+
+4. Run the command `git pull origin dev` - This brings the latest version of the _dev_-branch into your _feature_-branch. Although point 2 also does this, it is good practice to do this as well.
+
+5. Perform the dev of the Feature you are working on. Commit often with good Commit Messages.
+
+6. Run the command `git pull origin dev`- This brings the latest version of the _dev_-branch into your _feature_-branch. This is done because we want to deal with potential merge-conflicts locally. - This command MUST be run before you merge your _feature_-branch into the _dev_-branch, but it can be run during the dev for a more incremental handling of various tasks.
+
+7. Start a Pull-request on GitHub for your _feature_-branch into the _dev_-branch.
+
+8. When everything is complete run the command `git branch -d feature/[FEATURE NAME]` - Deletes the _feature_-branch you are done with
